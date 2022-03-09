@@ -1,5 +1,6 @@
 // import
 const path = require('path')
+const HtmlPlugin = require('html-webpack-plugin')
 
 // export
 module.exports = {
@@ -11,5 +12,16 @@ module.exports = {
     // path: path.resolve(__dirname, 'dist'),
     // filename: 'main.js',
     clean: true // 기존 필요하지 않은 내용 제거
+  },
+
+  // 번들링 후 결과물의 처리방식 등 다양한 플러그인들을 설정
+  plugins: [
+    new HtmlPlugin({
+      template: './index.html'
+    })
+  ],
+
+  devServer: {
+    host: 'localhost'
   }
 }

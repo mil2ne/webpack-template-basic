@@ -33,3 +33,6 @@ module.exports = {
 ```
 
 - `npm run build`
+
+- `npm i -D html-webpack-plugin`
+- `npm run dev`
