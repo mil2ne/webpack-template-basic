@@ -36,3 +36,4 @@ module.exports = {
 
 - `npm i -D html-webpack-plugin`
 - `npm run dev`
+- `npm i -D copy-webpack-plugin`
