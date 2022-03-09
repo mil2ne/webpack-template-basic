@@ -1,0 +1,26 @@
+{
+  "name": "17.webpack-template-basic",
+  "version": "1.0.0",
+  "description": "17.webpack-template-basic",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mil2ne/webpack-template-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mil2ne/webpack-template-basic/issues"
+  },
+  "homepage": "https://github.com/mil2ne/webpack-template-basic#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.0.0-rc.1"
+  }
+}
