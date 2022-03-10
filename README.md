@@ -38,3 +38,7 @@ module.exports = {
 - `npm run dev`
 - `npm i -D copy-webpack-plugin`
 - `npm i -D css-loader style-loader`
+
+
+## scss 연결
+- `npm i -D sass-loader sass`
