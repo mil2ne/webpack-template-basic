@@ -42,3 +42,6 @@ module.exports = {
 
 ## scss 연결
 - `npm i -D sass-loader sass`
+
+## autoprefixer
+- `npm i -D postcss autoprefixer postcss-loader`
