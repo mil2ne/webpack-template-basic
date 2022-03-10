@@ -19,7 +19,11 @@
   },
   "homepage": "https://github.com/mil2ne/webpack-template-basic#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
     "autoprefixer": "^10.4.2",
+    "babel-loader": "^8.2.3",
     "copy-webpack-plugin": "^10.2.4",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",

@@ -45,3 +45,7 @@ module.exports = {
 
 ## autoprefixer
 - `npm i -D postcss autoprefixer postcss-loader`
+
+## babel
+- `npm i -D @babel/core @babel/preset-env @babel/plugin-transform-runtime`
+- `npm i -D babel-loader`
