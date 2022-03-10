@@ -49,3 +49,6 @@ module.exports = {
 ## babel
 - `npm i -D @babel/core @babel/preset-env @babel/plugin-transform-runtime`
 - `npm i -D babel-loader`
+
+## npx degit
+- `npx degit mil2ne/webpack-template-basic webpack-template-degit-test`
